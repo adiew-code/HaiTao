@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		378800671F78FE450081E00B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 378800661F78FE450081E00B /* AppDelegate.m */; };
+		3788006A1F78FE450081E00B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 378800691F78FE450081E00B /* ViewController.m */; };
+		3788006D1F78FE450081E00B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3788006B1F78FE450081E00B /* Main.storyboard */; };
+		3788006F1F78FE450081E00B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3788006E1F78FE450081E00B /* Assets.xcassets */; };
+		378800721F78FE450081E00B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 378800701F78FE450081E00B /* LaunchScreen.storyboard */; };
+		378800751F78FE450081E00B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 378800741F78FE450081E00B /* main.m */; };
+		3788007F1F78FE450081E00B /* HaiTaoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3788007E1F78FE450081E00B /* HaiTaoTests.m */; };
+		3788008A1F78FE450081E00B /* HaiTaoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 378800891F78FE450081E00B /* HaiTaoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3788007B1F78FE450081E00B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3788005A1F78FE450081E00B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 378800611F78FE450081E00B;
+			remoteInfo = HaiTao;
+		};
+		378800861F78FE450081E00B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3788005A1F78FE450081E00B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 378800611F78FE450081E00B;
+			remoteInfo = HaiTao;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		378800621F78FE450081E00B /* HaiTao.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HaiTao.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		378800651F78FE450081E00B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		378800661F78FE450081E00B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		378800681F78FE450081E00B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		378800691F78FE450081E00B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3788006C1F78FE450081E00B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3788006E1F78FE450081E00B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		378800711F78FE450081E00B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		378800731F78FE450081E00B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		378800741F78FE450081E00B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3788007A1F78FE450081E00B /* HaiTaoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HaiTaoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3788007E1F78FE450081E00B /* HaiTaoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HaiTaoTests.m; sourceTree = "<group>"; };
+		378800801F78FE450081E00B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		378800851F78FE450081E00B /* HaiTaoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HaiTaoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		378800891F78FE450081E00B /* HaiTaoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HaiTaoUITests.m; sourceTree = "<group>"; };
+		3788008B1F78FE450081E00B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3788005F1F78FE450081E00B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		378800771F78FE450081E00B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		378800821F78FE450081E00B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		378800591F78FE450081E00B = {
+			isa = PBXGroup;
+			children = (
+				378800641F78FE450081E00B /* HaiTao */,
+				3788007D1F78FE450081E00B /* HaiTaoTests */,
+				378800881F78FE450081E00B /* HaiTaoUITests */,
+				378800631F78FE450081E00B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		378800631F78FE450081E00B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				378800621F78FE450081E00B /* HaiTao.app */,
+				3788007A1F78FE450081E00B /* HaiTaoTests.xctest */,
+				378800851F78FE450081E00B /* HaiTaoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		378800641F78FE450081E00B /* HaiTao */ = {
+			isa = PBXGroup;
+			children = (
+				378800651F78FE450081E00B /* AppDelegate.h */,
+				378800661F78FE450081E00B /* AppDelegate.m */,
+				378800681F78FE450081E00B /* ViewController.h */,
+				378800691F78FE450081E00B /* ViewController.m */,
+				3788006B1F78FE450081E00B /* Main.storyboard */,
+				3788006E1F78FE450081E00B /* Assets.xcassets */,
+				378800701F78FE450081E00B /* LaunchScreen.storyboard */,
+				378800731F78FE450081E00B /* Info.plist */,
+				378800741F78FE450081E00B /* main.m */,
+			);
+			path = HaiTao;
+			sourceTree = "<group>";
+		};
+		3788007D1F78FE450081E00B /* HaiTaoTests */ = {
+			isa = PBXGroup;
+			children = (
+				3788007E1F78FE450081E00B /* HaiTaoTests.m */,
+				378800801F78FE450081E00B /* Info.plist */,
+			);
+			path = HaiTaoTests;
+			sourceTree = "<group>";
+		};
+		378800881F78FE450081E00B /* HaiTaoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				378800891F78FE450081E00B /* HaiTaoUITests.m */,
+				3788008B1F78FE450081E00B /* Info.plist */,
+			);
+			path = HaiTaoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		378800611F78FE450081E00B /* HaiTao */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3788008E1F78FE450081E00B /* Build configuration list for PBXNativeTarget "HaiTao" */;
+			buildPhases = (
+				3788005E1F78FE450081E00B /* Sources */,
+				3788005F1F78FE450081E00B /* Frameworks */,
+				378800601F78FE450081E00B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HaiTao;
+			productName = HaiTao;
+			productReference = 378800621F78FE450081E00B /* HaiTao.app */;
+			productType = "com.apple.product-type.application";
+		};
+		378800791F78FE450081E00B /* HaiTaoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 378800911F78FE450081E00B /* Build configuration list for PBXNativeTarget "HaiTaoTests" */;
+			buildPhases = (
+				378800761F78FE450081E00B /* Sources */,
+				378800771F78FE450081E00B /* Frameworks */,
+				378800781F78FE450081E00B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3788007C1F78FE450081E00B /* PBXTargetDependency */,
+			);
+			name = HaiTaoTests;
+			productName = HaiTaoTests;
+			productReference = 3788007A1F78FE450081E00B /* HaiTaoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		378800841F78FE450081E00B /* HaiTaoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 378800941F78FE450081E00B /* Build configuration list for PBXNativeTarget "HaiTaoUITests" */;
+			buildPhases = (
+				378800811F78FE450081E00B /* Sources */,
+				378800821F78FE450081E00B /* Frameworks */,
+				378800831F78FE450081E00B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				378800871F78FE450081E00B /* PBXTargetDependency */,
+			);
+			name = HaiTaoUITests;
+			productName = HaiTaoUITests;
+			productReference = 378800851F78FE450081E00B /* HaiTaoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3788005A1F78FE450081E00B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "JieMao Technology";
+				TargetAttributes = {
+					378800611F78FE450081E00B = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					378800791F78FE450081E00B = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 378800611F78FE450081E00B;
+					};
+					378800841F78FE450081E00B = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 378800611F78FE450081E00B;
+					};
+				};
+			};
+			buildConfigurationList = 3788005D1F78FE450081E00B /* Build configuration list for PBXProject "HaiTao" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 378800591F78FE450081E00B;
+			productRefGroup = 378800631F78FE450081E00B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				378800611F78FE450081E00B /* HaiTao */,
+				378800791F78FE450081E00B /* HaiTaoTests */,
+				378800841F78FE450081E00B /* HaiTaoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		378800601F78FE450081E00B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				378800721F78FE450081E00B /* LaunchScreen.storyboard in Resources */,
+				3788006F1F78FE450081E00B /* Assets.xcassets in Resources */,
+				3788006D1F78FE450081E00B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		378800781F78FE450081E00B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		378800831F78FE450081E00B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3788005E1F78FE450081E00B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3788006A1F78FE450081E00B /* ViewController.m in Sources */,
+				378800751F78FE450081E00B /* main.m in Sources */,
+				378800671F78FE450081E00B /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		378800761F78FE450081E00B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3788007F1F78FE450081E00B /* HaiTaoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		378800811F78FE450081E00B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3788008A1F78FE450081E00B /* HaiTaoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3788007C1F78FE450081E00B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 378800611F78FE450081E00B /* HaiTao */;
+			targetProxy = 3788007B1F78FE450081E00B /* PBXContainerItemProxy */;
+		};
+		378800871F78FE450081E00B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 378800611F78FE450081E00B /* HaiTao */;
+			targetProxy = 378800861F78FE450081E00B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3788006B1F78FE450081E00B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3788006C1F78FE450081E00B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		378800701F78FE450081E00B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				378800711F78FE450081E00B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3788008C1F78FE450081E00B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3788008D1F78FE450081E00B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3788008F1F78FE450081E00B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HaiTao/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JieMao.HaiTao;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		378800901F78FE450081E00B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HaiTao/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JieMao.HaiTao;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		378800921F78FE450081E00B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HaiTaoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JieMao.HaiTaoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HaiTao.app/HaiTao";
+			};
+			name = Debug;
+		};
+		378800931F78FE450081E00B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HaiTaoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JieMao.HaiTaoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HaiTao.app/HaiTao";
+			};
+			name = Release;
+		};
+		378800951F78FE450081E00B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HaiTaoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JieMao.HaiTaoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HaiTao;
+			};
+			name = Debug;
+		};
+		378800961F78FE450081E00B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HaiTaoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JieMao.HaiTaoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HaiTao;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3788005D1F78FE450081E00B /* Build configuration list for PBXProject "HaiTao" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3788008C1F78FE450081E00B /* Debug */,
+				3788008D1F78FE450081E00B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3788008E1F78FE450081E00B /* Build configuration list for PBXNativeTarget "HaiTao" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3788008F1F78FE450081E00B /* Debug */,
+				378800901F78FE450081E00B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		378800911F78FE450081E00B /* Build configuration list for PBXNativeTarget "HaiTaoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				378800921F78FE450081E00B /* Debug */,
+				378800931F78FE450081E00B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		378800941F78FE450081E00B /* Build configuration list for PBXNativeTarget "HaiTaoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				378800951F78FE450081E00B /* Debug */,
+				378800961F78FE450081E00B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3788005A1F78FE450081E00B /* Project object */;
+}

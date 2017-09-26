@@ -25,6 +25,7 @@
 		377618561F79EB0800C089E0 /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 377618511F79EA2D00C089E0 /* GoogleMaps.framework */; };
 		377618571F79EB0800C089E0 /* GoogleMapsCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 377618521F79EA2D00C089E0 /* GoogleMapsCore.framework */; };
 		377618581F79EB1D00C089E0 /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 377618541F79EAA200C089E0 /* GoogleMaps.bundle */; };
+		3776185B1F79F36800C089E0 /* XunFeiVoiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3776185A1F79F36800C089E0 /* XunFeiVoiceViewController.m */; };
 		378800671F78FE450081E00B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 378800661F78FE450081E00B /* AppDelegate.m */; };
 		3788006A1F78FE450081E00B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 378800691F78FE450081E00B /* ViewController.m */; };
 		3788006F1F78FE450081E00B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3788006E1F78FE450081E00B /* Assets.xcassets */; };
@@ -72,6 +73,8 @@
 		377618511F79EA2D00C089E0 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
 		377618521F79EA2D00C089E0 /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMapsCore.framework; sourceTree = "<group>"; };
 		377618541F79EAA200C089E0 /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = HaiTao/ThirdPartLibrary/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle; sourceTree = SOURCE_ROOT; };
+		377618591F79F36800C089E0 /* XunFeiVoiceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XunFeiVoiceViewController.h; sourceTree = "<group>"; };
+		3776185A1F79F36800C089E0 /* XunFeiVoiceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XunFeiVoiceViewController.m; sourceTree = "<group>"; };
 		378800621F78FE450081E00B /* HaiTao.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HaiTao.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		378800651F78FE450081E00B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		378800661F78FE450081E00B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -215,6 +218,8 @@
 				378800691F78FE450081E00B /* ViewController.m */,
 				377618471F79E18D00C089E0 /* GoogleMapViewController.h */,
 				377618481F79E18D00C089E0 /* GoogleMapViewController.m */,
+				377618591F79F36800C089E0 /* XunFeiVoiceViewController.h */,
+				3776185A1F79F36800C089E0 /* XunFeiVoiceViewController.m */,
 				3788006E1F78FE450081E00B /* Assets.xcassets */,
 				378800701F78FE450081E00B /* LaunchScreen.storyboard */,
 				378800731F78FE450081E00B /* Info.plist */,
@@ -415,6 +420,7 @@
 				3788006A1F78FE450081E00B /* ViewController.m in Sources */,
 				378800751F78FE450081E00B /* main.m in Sources */,
 				377618491F79E18D00C089E0 /* GoogleMapViewController.m in Sources */,
+				3776185B1F79F36800C089E0 /* XunFeiVoiceViewController.m in Sources */,
 				378800671F78FE450081E00B /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

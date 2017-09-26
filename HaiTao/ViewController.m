@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "GoogleMapViewController.h"
+#import "XunFeiVoiceViewController.h"
 
 @interface ViewController ()
 
@@ -28,6 +29,19 @@
     [googleMapBtn addTarget:self action:@selector(ClickToGoogleMap) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:googleMapBtn];
     
+    UIButton *xunFeiBtn = [[UIButton alloc]initWithFrame:CGRectMake(100, 200, 200, 50)];
+    xunFeiBtn.backgroundColor = [UIColor greenColor];
+    [xunFeiBtn setTitle:@"讯飞语音" forState:UIControlStateNormal];
+    [xunFeiBtn setTitleColor:[UIColor redColor] forState:UIControlStateNormal];
+    [xunFeiBtn addTarget:self action:@selector(ClickToXunFeiVoice) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:xunFeiBtn];
+    
+}
+
+-(void)ClickToXunFeiVoice{
+    XunFeiVoiceViewController *voice = [[XunFeiVoiceViewController alloc]init];
+    
+    [self.navigationController pushViewController:voice animated:YES];
 }
 
 -(void) ClickToGoogleMap{

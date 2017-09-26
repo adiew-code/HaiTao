@@ -10,7 +10,10 @@
 #import <GoogleMaps/GoogleMaps.h>
 
 @interface GoogleMapViewController ()
-
+{
+    GMSMapView *_mapView;
+    BOOL _firstLocationUpdate;
+}
 @end
 
 @implementation GoogleMapViewController
@@ -24,19 +27,45 @@
 }
 
 -(void)loadView{    
-    GMSCameraPosition *camera = [GMSCameraPosition cameraWithLatitude:-33.86
-                                                            longitude:151.20
-                                                                 zoom:6];
-    GMSMapView *mapView = [GMSMapView mapWithFrame:CGRectZero camera:camera];
-    mapView.myLocationEnabled = YES;
-    self.view = mapView;
+    GMSCameraPosition *camera = [GMSCameraPosition cameraWithLatitude:-33.868
+                                                            longitude:151.2086
+                                                                 zoom:12];
+    _mapView = [GMSMapView mapWithFrame:CGRectZero camera:camera];
+    _mapView.settings.compassButton = YES;
+    _mapView.settings.myLocationButton = YES;
     
-    // Creates a marker in the center of the map.
-    GMSMarker *marker = [[GMSMarker alloc] init];
-    marker.position = CLLocationCoordinate2DMake(-33.86, 151.20);
-    marker.title = @"Sydney";
-    marker.snippet = @"Australia";
-    marker.map = mapView;
+    // Listen to the myLocation property of GMSMapView.
+    [_mapView addObserver:self
+               forKeyPath:@"myLocation"
+                  options:NSKeyValueObservingOptionNew
+                  context:NULL];
+    
+    self.view = _mapView;
+    
+    dispatch_async(dispatch_get_main_queue(), ^{
+        _mapView.myLocationEnabled = YES;
+    });
+}
+
+- (void)dealloc {
+    [_mapView removeObserver:self
+                  forKeyPath:@"myLocation"
+                     context:NULL];
+}
+
+#pragma mark - KVO updates
+
+- (void)observeValueForKeyPath:(NSString *)keyPath
+                      ofObject:(id)object
+                        change:(NSDictionary *)change
+                       context:(void *)context {
+    if (!_firstLocationUpdate) {
+        
+        _firstLocationUpdate = YES;
+        CLLocation *location = [change objectForKey:NSKeyValueChangeNewKey];
+        _mapView.camera = [GMSCameraPosition cameraWithTarget:location.coordinate
+                                                         zoom:14];
+    }
 }
 
 - (void)didReceiveMemoryWarning {

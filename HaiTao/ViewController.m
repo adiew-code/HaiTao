@@ -19,7 +19,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.title = @"Welcome Back";
+    self.title = NSLocalizedString(@"Title", nil);
     self.view.backgroundColor = [UIColor whiteColor];
     
     UIButton *googleMapBtn = [[UIButton alloc]initWithFrame:CGRectMake(100, 100, 200, 50)];

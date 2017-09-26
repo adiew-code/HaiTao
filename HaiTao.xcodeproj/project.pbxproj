@@ -33,7 +33,6 @@
 		378800751F78FE450081E00B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 378800741F78FE450081E00B /* main.m */; };
 		3788007F1F78FE450081E00B /* HaiTaoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3788007E1F78FE450081E00B /* HaiTaoTests.m */; };
 		3788008A1F78FE450081E00B /* HaiTaoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 378800891F78FE450081E00B /* HaiTaoUITests.m */; };
-		37FBDFC41F790109006C8DF0 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37FBDFC31F790109006C8DF0 /* ExternalAccessory.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,7 +89,6 @@
 		378800851F78FE450081E00B /* HaiTaoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HaiTaoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		378800891F78FE450081E00B /* HaiTaoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HaiTaoUITests.m; sourceTree = "<group>"; };
 		3788008B1F78FE450081E00B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		37FBDFC31F790109006C8DF0 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
 		37FBDFC51F790109006C8DF0 /* HaiTao.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HaiTao.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -115,7 +113,6 @@
 				377618321F79DF9E00C089E0 /* CoreGraphics.framework in Frameworks */,
 				377618301F79DF9600C089E0 /* CoreData.framework in Frameworks */,
 				3776182E1F79DF8B00C089E0 /* Accelerate.framework in Frameworks */,
-				37FBDFC41F790109006C8DF0 /* ExternalAccessory.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,7 +260,6 @@
 				377618311F79DF9E00C089E0 /* CoreGraphics.framework */,
 				3776182F1F79DF9600C089E0 /* CoreData.framework */,
 				3776182D1F79DF8B00C089E0 /* Accelerate.framework */,
-				37FBDFC31F790109006C8DF0 /* ExternalAccessory.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -349,7 +345,7 @@
 								enabled = 1;
 							};
 							com.apple.WAC = {
-								enabled = 1;
+								enabled = 0;
 							};
 						};
 					};
@@ -578,7 +574,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = HaiTao/HaiTao.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = E3KAG43VEC;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/HaiTao/ThirdPartLibrary/GoogleMaps",
@@ -586,9 +582,10 @@
 					"$(PROJECT_DIR)/HaiTao/ThirdPartLibrary/GoogleMaps/Maps/Frameworks",
 				);
 				INFOPLIST_FILE = HaiTao/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = com.JieMao.HaiTao;
+				PRODUCT_BUNDLE_IDENTIFIER = com.exam4544545;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -600,7 +597,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = HaiTao/HaiTao.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = E3KAG43VEC;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/HaiTao/ThirdPartLibrary/GoogleMaps",
@@ -608,9 +605,10 @@
 					"$(PROJECT_DIR)/HaiTao/ThirdPartLibrary/GoogleMaps/Maps/Frameworks",
 				);
 				INFOPLIST_FILE = HaiTao/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = com.JieMao.HaiTao;
+				PRODUCT_BUNDLE_IDENTIFIER = com.exam4544545;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 			};

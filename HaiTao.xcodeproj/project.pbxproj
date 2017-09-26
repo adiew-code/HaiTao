@@ -7,9 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3776182A1F79DF6D00C089E0 /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 377618261F79DE3B00C089E0 /* GoogleMaps.framework */; };
-		3776182B1F79DF6D00C089E0 /* GoogleMapsBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 377618271F79DE3B00C089E0 /* GoogleMapsBase.framework */; };
-		3776182C1F79DF6D00C089E0 /* GoogleMapsCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 377618281F79DE3B00C089E0 /* GoogleMapsCore.framework */; };
 		3776182E1F79DF8B00C089E0 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3776182D1F79DF8B00C089E0 /* Accelerate.framework */; };
 		377618301F79DF9600C089E0 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3776182F1F79DF9600C089E0 /* CoreData.framework */; };
 		377618321F79DF9E00C089E0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 377618311F79DF9E00C089E0 /* CoreGraphics.framework */; };
@@ -24,7 +21,10 @@
 		377618441F79DFEF00C089E0 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 377618431F79DFEF00C089E0 /* SystemConfiguration.framework */; };
 		377618461F79DFF700C089E0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 377618451F79DFF700C089E0 /* UIKit.framework */; };
 		377618491F79E18D00C089E0 /* GoogleMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 377618481F79E18D00C089E0 /* GoogleMapViewController.m */; };
-		3776184A1F79E48B00C089E0 /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 377618291F79DEBB00C089E0 /* GoogleMaps.bundle */; };
+		377618551F79EAE500C089E0 /* GoogleMapsBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3776184E1F79EA2D00C089E0 /* GoogleMapsBase.framework */; };
+		377618561F79EB0800C089E0 /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 377618511F79EA2D00C089E0 /* GoogleMaps.framework */; };
+		377618571F79EB0800C089E0 /* GoogleMapsCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 377618521F79EA2D00C089E0 /* GoogleMapsCore.framework */; };
+		377618581F79EB1D00C089E0 /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 377618541F79EAA200C089E0 /* GoogleMaps.bundle */; };
 		378800671F78FE450081E00B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 378800661F78FE450081E00B /* AppDelegate.m */; };
 		3788006A1F78FE450081E00B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 378800691F78FE450081E00B /* ViewController.m */; };
 		3788006F1F78FE450081E00B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3788006E1F78FE450081E00B /* Assets.xcassets */; };
@@ -53,10 +53,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		377618261F79DE3B00C089E0 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
-		377618271F79DE3B00C089E0 /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMapsBase.framework; sourceTree = "<group>"; };
-		377618281F79DE3B00C089E0 /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMapsCore.framework; sourceTree = "<group>"; };
-		377618291F79DEBB00C089E0 /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
 		3776182D1F79DF8B00C089E0 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 		3776182F1F79DF9600C089E0 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		377618311F79DF9E00C089E0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -72,6 +68,10 @@
 		377618451F79DFF700C089E0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		377618471F79E18D00C089E0 /* GoogleMapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GoogleMapViewController.h; sourceTree = "<group>"; };
 		377618481F79E18D00C089E0 /* GoogleMapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoogleMapViewController.m; sourceTree = "<group>"; };
+		3776184E1F79EA2D00C089E0 /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMapsBase.framework; sourceTree = "<group>"; };
+		377618511F79EA2D00C089E0 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
+		377618521F79EA2D00C089E0 /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMapsCore.framework; sourceTree = "<group>"; };
+		377618541F79EAA200C089E0 /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = HaiTao/ThirdPartLibrary/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle; sourceTree = SOURCE_ROOT; };
 		378800621F78FE450081E00B /* HaiTao.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HaiTao.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		378800651F78FE450081E00B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		378800661F78FE450081E00B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -96,6 +96,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				377618561F79EB0800C089E0 /* GoogleMaps.framework in Frameworks */,
+				377618571F79EB0800C089E0 /* GoogleMapsCore.framework in Frameworks */,
+				377618551F79EAE500C089E0 /* GoogleMapsBase.framework in Frameworks */,
 				377618461F79DFF700C089E0 /* UIKit.framework in Frameworks */,
 				377618441F79DFEF00C089E0 /* SystemConfiguration.framework in Frameworks */,
 				377618421F79DFE800C089E0 /* QuartzCore.framework in Frameworks */,
@@ -109,9 +112,6 @@
 				377618321F79DF9E00C089E0 /* CoreGraphics.framework in Frameworks */,
 				377618301F79DF9600C089E0 /* CoreData.framework in Frameworks */,
 				3776182E1F79DF8B00C089E0 /* Accelerate.framework in Frameworks */,
-				3776182A1F79DF6D00C089E0 /* GoogleMaps.framework in Frameworks */,
-				3776182B1F79DF6D00C089E0 /* GoogleMapsBase.framework in Frameworks */,
-				3776182C1F79DF6D00C089E0 /* GoogleMapsCore.framework in Frameworks */,
 				37FBDFC41F790109006C8DF0 /* ExternalAccessory.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -133,15 +133,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		377618251F79DE3B00C089E0 /* GoogleMaps */ = {
+		3776184B1F79EA2D00C089E0 /* GoogleMaps */ = {
 			isa = PBXGroup;
 			children = (
-				377618291F79DEBB00C089E0 /* GoogleMaps.bundle */,
-				377618261F79DE3B00C089E0 /* GoogleMaps.framework */,
-				377618271F79DE3B00C089E0 /* GoogleMapsBase.framework */,
-				377618281F79DE3B00C089E0 /* GoogleMapsCore.framework */,
+				3776184C1F79EA2D00C089E0 /* Base */,
+				3776184F1F79EA2D00C089E0 /* Maps */,
 			);
 			path = GoogleMaps;
+			sourceTree = "<group>";
+		};
+		3776184C1F79EA2D00C089E0 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				3776184D1F79EA2D00C089E0 /* Frameworks */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		3776184D1F79EA2D00C089E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3776184E1F79EA2D00C089E0 /* GoogleMapsBase.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		3776184F1F79EA2D00C089E0 /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				377618531F79EA8800C089E0 /* Resource */,
+				377618501F79EA2D00C089E0 /* Frameworks */,
+			);
+			path = Maps;
+			sourceTree = "<group>";
+		};
+		377618501F79EA2D00C089E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				377618511F79EA2D00C089E0 /* GoogleMaps.framework */,
+				377618521F79EA2D00C089E0 /* GoogleMapsCore.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		377618531F79EA8800C089E0 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				377618541F79EAA200C089E0 /* GoogleMaps.bundle */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 		378800591F78FE450081E00B = {
@@ -226,7 +266,7 @@
 		37FBDFC61F7902DC006C8DF0 /* ThirdPartLibrary */ = {
 			isa = PBXGroup;
 			children = (
-				377618251F79DE3B00C089E0 /* GoogleMaps */,
+				3776184B1F79EA2D00C089E0 /* GoogleMaps */,
 			);
 			path = ThirdPartLibrary;
 			sourceTree = "<group>";
@@ -345,7 +385,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3776184A1F79E48B00C089E0 /* GoogleMaps.bundle in Resources */,
+				377618581F79EB1D00C089E0 /* GoogleMaps.bundle in Resources */,
 				378800721F78FE450081E00B /* LaunchScreen.storyboard in Resources */,
 				3788006F1F78FE450081E00B /* Assets.xcassets in Resources */,
 			);
@@ -536,6 +576,8 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/HaiTao/ThirdPartLibrary/GoogleMaps",
+					"$(PROJECT_DIR)/HaiTao/ThirdPartLibrary/GoogleMaps/Base/Frameworks",
+					"$(PROJECT_DIR)/HaiTao/ThirdPartLibrary/GoogleMaps/Maps/Frameworks",
 				);
 				INFOPLIST_FILE = HaiTao/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -556,6 +598,8 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/HaiTao/ThirdPartLibrary/GoogleMaps",
+					"$(PROJECT_DIR)/HaiTao/ThirdPartLibrary/GoogleMaps/Base/Frameworks",
+					"$(PROJECT_DIR)/HaiTao/ThirdPartLibrary/GoogleMaps/Maps/Frameworks",
 				);
 				INFOPLIST_FILE = HaiTao/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

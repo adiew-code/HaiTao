@@ -24,6 +24,10 @@
     self.title = @"GoogleMap Show";
     self.view.backgroundColor = [UIColor whiteColor];
     
+    dispatch_async(dispatch_get_main_queue(), ^{
+        _mapView.myLocationEnabled = YES;
+    });
+    
 }
 
 -(void)loadView{    
@@ -41,10 +45,6 @@
                   context:NULL];
     
     self.view = _mapView;
-    
-    dispatch_async(dispatch_get_main_queue(), ^{
-        _mapView.myLocationEnabled = YES;
-    });
 }
 
 - (void)dealloc {

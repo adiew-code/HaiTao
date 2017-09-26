@@ -582,7 +582,7 @@
 					"$(PROJECT_DIR)/HaiTao/ThirdPartLibrary/GoogleMaps/Maps/Frameworks",
 				);
 				INFOPLIST_FILE = HaiTao/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.exam4544545;
@@ -605,7 +605,7 @@
 					"$(PROJECT_DIR)/HaiTao/ThirdPartLibrary/GoogleMaps/Maps/Frameworks",
 				);
 				INFOPLIST_FILE = HaiTao/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.exam4544545;
